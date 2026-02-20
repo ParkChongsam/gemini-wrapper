@@ -1,4 +1,5 @@
-export default function Home() {
+'use client'
+      export default function Home() {
       return (
               <div style={{minHeight:'100vh',background:'#020817',color:'#fff',fontFamily:'sans-serif'}}>
                         <nav style={{position:'fixed',top:0,width:'100%',zIndex:100,background:'rgba(2,8,23,0.9)',borderBottom:'1px solid rgba(255,255,255,0.07)',padding:'0 48px',height:64,display:'flex',alignItems:'center',justifyContent:'space-between',boxSizing:'border-box'}}>
